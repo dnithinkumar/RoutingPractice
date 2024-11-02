@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-bottom: 100px;
+}
+
+.nav-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-logo-image {
+  width: 45px;
+}
+
+.nav-logo-name {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  color: #12022f;
+  margin-left: 10px;
+}
+
+.nav-links-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 20px;
+  color: #12022f;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding: 0px 50px;
+  }
+
+  .nav-logo-image {
+    width: 60px;
+  }
+
+  .nav-logo-name {
+    font-size: 22px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+/* Write your CSS code here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 250px;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #551e53;
+  margin-top: 20px;
+}
+
+.description {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #555555;
+}
+
+@media (min-width: 992px) {
+  .image {
+    width: 300px;
+  }
+
+  .heading {
+    font-size: 42px;
+    margin-top: 30px;
+  }
+
+  .description {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #555555;
+  }
+}
